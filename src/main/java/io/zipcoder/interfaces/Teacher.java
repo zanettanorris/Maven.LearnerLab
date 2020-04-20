@@ -1,7 +1,11 @@
 package io.zipcoder.interfaces;
 
 public interface Teacher {
+    //changing return type to double to match method in instructor class.
+    public double teach(Learner learner, double numberOfHours);
 
+    public void lecture(Learner[] learners, double numberOfHours);
+}
 //    Part 4.0 - Create Teacher Interface
 //
 //Create a Teacher interface.
@@ -19,4 +23,3 @@ public interface Teacher {
 //Learner[] learners
 //double numberOfHours
 //Method return-type: void
-}
